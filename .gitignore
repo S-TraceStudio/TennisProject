@@ -5,3 +5,5 @@
 /*.docx
 /report/
 /dataset/
+src/.idea/
+src/venv/
