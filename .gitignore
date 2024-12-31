@@ -8,3 +8,4 @@
 src/.idea/
 src/venv/
 venv/
+src/__pycache__/
