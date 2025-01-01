@@ -6,8 +6,8 @@ pandas
 torch
 scipy
 scikit-image
-opencv_python
-opencv-python-headless
+opencv_python==4.5.4.60
+opencv-python-headless==4.5.4.60
 scikit-learn
 filterpy
 seaborn==0.12
