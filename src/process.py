@@ -17,6 +17,18 @@ from utils import get_video_properties, get_dtype, get_stickman_line_connection
 from court_detection import CourtDetector
 import matplotlib.pyplot as plt
 
+""""
+import torch
+
+
+def DEVICE(self) -> str:
+    if torch.cuda.is_available():
+        return "cuda"
+    elif torch.mps.is_available():
+        return "mps"
+    else:
+        return "cpu"
+"""
 
 def get_stroke_predictions(video_path, stroke_recognition, strokes_frames, player_boxes):
     """
